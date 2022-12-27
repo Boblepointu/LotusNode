@@ -54,6 +54,9 @@ resource "aws_ecs_service" "lotus" {
     container_port   = 10604
   }
 
+  deployment_maximum_percent = 100
+  deployment_minimum_healthy_percent = 0  
+
   network_configuration {
     subnets          = data.aws_subnets.main.ids
     assign_public_ip = true
