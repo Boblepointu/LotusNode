@@ -12,5 +12,5 @@ COPY include /src/include
 COPY lib /src/lib
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
-CMD ./usr/sbin/nginx && \
+CMD /usr/sbin/nginx && \
     ./bin/lotusd -rest=1 -rpcallowip=0.0.0.0/0 -rpcthreads=8  -rpcuser=lotus -rpcpassword=lotus -rpcport=10604
