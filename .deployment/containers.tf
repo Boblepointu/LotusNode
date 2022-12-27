@@ -133,6 +133,10 @@ resource "aws_ecs_task_definition" "lotus" {
         {
           containerPort = 3000
           hostPort      = 3000
+        },
+        {
+          containerPort = 10605
+          hostPort      = 10605
         }
       ]
 
