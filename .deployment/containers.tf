@@ -51,7 +51,7 @@ resource "aws_ecs_service" "lotus" {
   load_balancer {
     target_group_arn = aws_lb_target_group.lotus.arn
     container_name   = "${var.project_name}-lotus-${var.environment}"
-    container_port   = 10604
+    container_port   = 3000
   }
 
   deployment_maximum_percent = 100
@@ -131,8 +131,8 @@ resource "aws_ecs_task_definition" "lotus" {
       essential         = true
       portMappings      = [
         {
-          containerPort = 10604
-          hostPort      = 10604
+          containerPort = 3000
+          hostPort      = 3000
         }
       ]
 
