@@ -15,8 +15,8 @@ lb_dns_record_lotus   = "lotus-rpc.frenchbtc.fr"
 # ECS task definitions. How powerful we want the ECS pods.
 task_definition_configs  = {
   lotus = {
-    memory            = 1024
-    cpu               = 512
-    soft_memory_limit = 1010
+    memory            = 4096
+    cpu               = 2048
+    soft_memory_limit = 4050
   }
 }
