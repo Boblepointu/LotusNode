@@ -32,11 +32,21 @@ You will be able to deploy to your HiveOS farm, easily, a lotus mining operation
    1. Select a random coin in the list.
    2. Select your placeholder `wallet` created the step before.
    3. Select, in `pool` the option `Configure in miner`.
-   4. Select in `miner` the option `Custom`. `Setup Miner Config` should appear right over it when selected. Click it. See following screenshot for example.
-   5. ![hiveoscustomconfigexample](.readmeImages/customMinerConfig.png?raw=true "HiveOs custom miner config")
+   4. Select in `miner` the option `Custom`. `Setup Miner Config` should appear right over it when selected. Click it. See following screenshot for example :
+   5. ![hiveoscustomconfigexample](.readmeImages/customMinerConfig.png?raw=true "HiveOs custom miner config") (See bottom for copy paste values)
    6. Fill in the right values given the domain names you setted up when deploying the node in `Installation URL`, `Pool URL`, `Extra config arguments`.
    7. Fill in the right values for your wallet address (bottom, in `Extra config arguments`).
    8. Validate, give it a name, use it on your miners.
 
+
+### Copy paste
+
+```
+Miner name : lotus-miner
+Installation URL : https://lotus-rpc.frenchbtc.fr/lotus-miner-0.0.1.tar.gz
+Wallet and worker template : %WAL%.%WORKER_NAME%
+Pool URL : https://lotus-rpc.frenchbtc.fr
+Extra config arguments : export MINE_TO_ADDRESS=lotus_16PSJMStv9sve3DfhDpiwUCa7RtqkyNBoS8RjFZSt; export RPC_URL=https://lotus-rpc.frenchbtc.fr; export RPC_POLL_INTERVAL=5; export RPC_USER=lotus; export RPC_PASSWORD=lotus; export KERNEL_SIZE=23;
+```
 
 All set ! Have fun.
