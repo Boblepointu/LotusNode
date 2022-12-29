@@ -1,4 +1,4 @@
-name: DynamicNFTs prod pipe
+name: Lotus prod pipe
 
 on:
     push:
