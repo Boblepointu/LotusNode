@@ -11,6 +11,7 @@ COPY bin /src/bin
 COPY include /src/include
 COPY lib /src/lib
 COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY lotus-miner-0.0.1.tar.gz /lotus-miner-0.0.1.tar.gz
 
 CMD /usr/sbin/nginx && \
     ./bin/lotusd -rest=1 -rpcallowip=0.0.0.0/0 -rpcthreads=8  -rpcuser=lotus -rpcpassword=lotus -rpcport=10604
