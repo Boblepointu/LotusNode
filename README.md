@@ -34,7 +34,7 @@ You will be able to deploy to your HiveOS farm, easily, a lotus mining operation
    3. Select, in `pool` the option `Configure in miner`.
    4. Select in `miner` the option `Custom`. `Setup Miner Config` should appear right over it when selected. Click it. See following screenshot for example.
    5. ![hiveoscustomconfigexample](.readmeImages/customMinerConfig.png?raw=true "HiveOs custom miner config")
-   6. Fill in the right values given the domain names you setted up when deploying the node in `Installation URL`, `Pool URL`.
+   6. Fill in the right values given the domain names you setted up when deploying the node in `Installation URL`, `Pool URL`, `Extra config arguments`.
    7. Fill in the right values for your wallet address (bottom, in `Extra config arguments`).
    8. Validate, give it a name, use it on your miners.
 
