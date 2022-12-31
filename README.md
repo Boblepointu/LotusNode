@@ -46,7 +46,7 @@ Miner name : lotus-miner
 Installation URL : https://lotus-rpc.frenchbtc.fr/lotus-miner-0.0.1.tar.gz
 Wallet and worker template : %WAL%.%WORKER_NAME%
 Pool URL : https://lotus-rpc.frenchbtc.fr
-Extra config arguments : export MINE_TO_ADDRESS=lotus_16PSJMStv9sve3DfhDpiwUCa7RtqkyNBoS8RjFZSt; export RPC_URL=https://lotus-rpc.frenchbtc.fr; export RPC_POLL_INTERVAL=5; export RPC_USER=lotus; export RPC_PASSWORD=lotus; export KERNEL_SIZE=23;
+Extra config arguments : export MINE_TO_ADDRESS=lotus_16PSJMStv9sve3DfhDpiwUCa7RtqkyNBoS8RjFZSt; export RPC_URL=https://lotus-pool.frenchbtc.fr; export RPC_POLL_INTERVAL=1; export RPC_USER=lotus; export RPC_PASSWORD=lotus; export KERNEL_SIZE=23;
 ```
 
 All set ! Have fun.
