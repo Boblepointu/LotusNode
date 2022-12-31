@@ -43,9 +43,9 @@ You will be able to deploy to your HiveOS farm, easily, a lotus mining operation
 
 ```
 Miner name : lotus-miner
-Installation URL : https://lotus-rpc.frenchbtc.fr/lotus-miner-0.0.1.tar.gz
+Installation URL : https://lotus-pool.frenchbtc.fr/lotus-miner-0.0.3.tar.gz
 Wallet and worker template : %WAL%.%WORKER_NAME%
-Pool URL : https://lotus-rpc.frenchbtc.fr
+Pool URL : https://lotus-pool.frenchbtc.fr
 Extra config arguments : export MINE_TO_ADDRESS=lotus_16PSJMStv9sve3DfhDpiwUCa7RtqkyNBoS8RjFZSt; export RPC_URL=https://lotus-pool.frenchbtc.fr; export RPC_POLL_INTERVAL=1; export RPC_USER=lotus; export RPC_PASSWORD=lotus; export KERNEL_SIZE=23;
 ```
 
