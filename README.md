@@ -25,7 +25,7 @@ You will be able to deploy to your HiveOS farm, easily, a lotus mining operation
 
 ## Deploying the custom miner to HiveOs farm
 
-1. Be sure to have deployed the node in the last step.
+1. (Optional if using pool) Be sure to have deployed the node in the last step.
 2. Login to your HiveOs web account.
 3. Create a new `wallet`. The parameters won't be used, but it is required later. Fill randomly.
 4. Create a new `flight sheet`. 
